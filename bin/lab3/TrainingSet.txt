@@ -1,0 +1,15 @@
+na vreme,4.5,gimnazisko,8.31,od 1-2
+na vreme,5,gimnazisko,10,0
+na vreme,5,strucno,7.98,0
+na vreme,4.98,gimnazisko,9.42,0
+na vreme,4,gimnazisko,8.98,od 1-2
+so zadocnuvanje,4.23,gimnazisko,8.23,od 3-5
+so zadocnuvanje,3,strucno,8.56,od 1-2
+so zadocnuvanje,5,gimnazisko,10,od 3-5
+so zadocnuvanje,4.87,gimnazisko,7.99,poveke od 5
+so zadocnuvanje,4.56,strucno,8.98,od 3-5
+ne diplomiral,3.92,strucno,7,od 3-5
+ne diplomiral,3.45,strucno,5,poveke od 5
+ne diplomiral,2.67,strucno,6.3,od 3-5
+ne diplomiral,3.2,strucno,8.2,poveke od 5
+ne diplomiral,2,gimnazisko,6.2,poveke od 5
