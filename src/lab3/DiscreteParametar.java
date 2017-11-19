@@ -50,4 +50,22 @@ public class DiscreteParametar extends Parametar {
 			
 		}
 	}
+	
+	@Override
+	public String toString() {
+		
+		StringBuffer sb = new StringBuffer();
+		
+		sb.append("\n");
+		for (String s : examples.keySet()) {
+			
+			int i=0;
+			for (Double d : examples.get(s)) {
+				
+				sb.append(String.format("%s ima uslovna verojatnost za klasa %d = %.4f\n", s,i,getConditionalProbability(s, i, 6)));
+				++i;
+			}
+		}
+		return sb.toString();
+	}
 }

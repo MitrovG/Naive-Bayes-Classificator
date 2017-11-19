@@ -127,6 +127,17 @@ public class Classificator {
 		
 		return prior * cptUspeh * cptObrazovanie * cptProsek * cptPredmeti;
 	}
+	
+	@Override
+	public String toString() {
+		
+		StringBuffer sb = new StringBuffer();
+		for (Parametar p : parametars) {
+			sb.append(p.toString());
+			sb.append("\n");
+		}
+		return sb.toString();
+	}
 
 
 }

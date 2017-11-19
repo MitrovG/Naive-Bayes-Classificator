@@ -10,4 +10,5 @@ public abstract class Parametar {
 	public abstract void putExample(String value, int c);
 	public void laPlaceSmoothing(double d) {};
 	
+	
 }

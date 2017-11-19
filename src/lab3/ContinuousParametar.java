@@ -59,4 +59,22 @@ public class ContinuousParametar extends Parametar {
 		return temp / (size - 1);
 	}
 	
+	@Override
+	public String toString() {
+		
+		StringBuffer sb = new StringBuffer();
+		sb.append("\n");
+		
+		for (int i=0; i < 3; ++i) {
+			
+			ArrayList<Double> list = examples.get(i);
+			sb.append(String.format("Mean i varaince za klasa %d iznesuvaat %.4f, %.4f\n"
+					,i,getMean(list),getVariance(list, getMean(list)) ));
+			
+		}
+		
+		return sb.toString();
+		
+	}
+	
 }
